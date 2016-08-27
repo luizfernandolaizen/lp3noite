@@ -19,5 +19,11 @@ namespace TodoWeb.Controllers
             //ViewBag.Usuarios = lista;
             return View(lista);
         }
+
+        //get:usuario/create
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }
