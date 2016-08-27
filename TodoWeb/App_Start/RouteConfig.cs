@@ -16,7 +16,11 @@ namespace TodoWeb
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
+<<<<<<< HEAD
                 defaults: new { controller = "Usuario", action = "Index", id = UrlParameter.Optional }
+=======
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+>>>>>>> 2a23c790ec42b50c3cdcc01fb0e519edbcd320be
             );
         }
     }
